@@ -17,6 +17,10 @@ if &t_Co > 2
     syntax on
 endif
 
+if has('reltime')
+    set incsearch
+endif
+
 set backspace=indent,eol,start
 
 set history=200
