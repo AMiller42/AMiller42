@@ -21,6 +21,11 @@ if has('reltime')
     set incsearch
 endif
 
+nnoremap Q <Nop>
+
+set ttimeout
+set ttimeoutlen=80
+
 set backspace=indent,eol,start
 
 set history=200
